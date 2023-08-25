@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D2371212A7C73B0000DB098 /* BackgroundInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2371202A7C73B0000DB098 /* BackgroundInfoViewController.swift */; };
+		3D2371232A7C9980000DB098 /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2371222A7C9980000DB098 /* ChatTableViewCell.swift */; };
+		3D2F5E212A85DA49008B5987 /* DetermineLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2F5E202A85DA49008B5987 /* DetermineLocationViewController.swift */; };
+		3D2F5E232A85DE2D008B5987 /* asdgafdhhhViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2F5E222A85DE2D008B5987 /* asdgafdhhhViewController.swift */; };
+		3D2F5E252A8940CC008B5987 /* ItineraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2F5E242A8940CC008B5987 /* ItineraryViewController.swift */; };
+		3DA327DD2A7980E4003CC7D3 /* ChatModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA327DC2A7980E4003CC7D3 /* ChatModeViewController.swift */; };
+		3DA327DF2A798188003CC7D3 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA327DE2A798188003CC7D3 /* HistoryViewController.swift */; };
+		3DA327E12A7981F1003CC7D3 /* ItineraryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA327E02A7981F1003CC7D3 /* ItineraryCollectionViewCell.swift */; };
+		3DA327E32A798219003CC7D3 /* Itinerary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA327E22A798219003CC7D3 /* Itinerary.swift */; };
+		3DA327E52A79B939003CC7D3 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA327E42A79B939003CC7D3 /* NetworkManager.swift */; };
+		EE3460622A76E34D00DF13C6 /* PushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3460612A76E34D00DF13C6 /* PushViewController.swift */; };
 		EE59D25E2A632DD5007C6BB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59D25D2A632DD5007C6BB1 /* AppDelegate.swift */; };
 		EE59D2602A632DD5007C6BB1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59D25F2A632DD5007C6BB1 /* SceneDelegate.swift */; };
 		EE59D2622A632DD5007C6BB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59D2612A632DD5007C6BB1 /* ViewController.swift */; };
@@ -17,9 +28,24 @@
 		EEE850D22A6336E5005E5304 /* env.txt in Resources */ = {isa = PBXBuildFile; fileRef = EEE850D12A6336E5005E5304 /* env.txt */; };
 		EEE850D42A633761005E5304 /* testLangChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE850D32A633761005E5304 /* testLangChain.swift */; };
 		EEE850D72A633C31005E5304 /* LangChain in Frameworks */ = {isa = PBXBuildFile; productRef = EEE850D62A633C31005E5304 /* LangChain */; };
+		FA37804A0D5DE970F4EDA27A /* Pods_langchain_implementation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2998FBE1D3456B9F786EA5 /* Pods_langchain_implementation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		337BBF69985E874699E9E812 /* Pods-langchain_implementation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-langchain_implementation.debug.xcconfig"; path = "Target Support Files/Pods-langchain_implementation/Pods-langchain_implementation.debug.xcconfig"; sourceTree = "<group>"; };
+		3D2371202A7C73B0000DB098 /* BackgroundInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundInfoViewController.swift; sourceTree = "<group>"; };
+		3D2371222A7C9980000DB098 /* ChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
+		3D2F5E202A85DA49008B5987 /* DetermineLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetermineLocationViewController.swift; sourceTree = "<group>"; };
+		3D2F5E222A85DE2D008B5987 /* asdgafdhhhViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = asdgafdhhhViewController.swift; sourceTree = "<group>"; };
+		3D2F5E242A8940CC008B5987 /* ItineraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryViewController.swift; sourceTree = "<group>"; };
+		3DA327DC2A7980E4003CC7D3 /* ChatModeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModeViewController.swift; sourceTree = "<group>"; };
+		3DA327DE2A798188003CC7D3 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		3DA327E02A7981F1003CC7D3 /* ItineraryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryCollectionViewCell.swift; sourceTree = "<group>"; };
+		3DA327E22A798219003CC7D3 /* Itinerary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Itinerary.swift; sourceTree = "<group>"; };
+		3DA327E42A79B939003CC7D3 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		9B7637BF2C004B2A553A8777 /* Pods-langchain_implementation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-langchain_implementation.release.xcconfig"; path = "Target Support Files/Pods-langchain_implementation/Pods-langchain_implementation.release.xcconfig"; sourceTree = "<group>"; };
+		EE2998FBE1D3456B9F786EA5 /* Pods_langchain_implementation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_langchain_implementation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE3460612A76E34D00DF13C6 /* PushViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushViewController.swift; sourceTree = "<group>"; };
 		EE59D25A2A632DD5007C6BB1 /* langchain_implementation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = langchain_implementation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE59D25D2A632DD5007C6BB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE59D25F2A632DD5007C6BB1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,18 +65,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEE850D72A633C31005E5304 /* LangChain in Frameworks */,
+				FA37804A0D5DE970F4EDA27A /* Pods_langchain_implementation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0BDC5689F8A01A67A601F9C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				337BBF69985E874699E9E812 /* Pods-langchain_implementation.debug.xcconfig */,
+				9B7637BF2C004B2A553A8777 /* Pods-langchain_implementation.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		EE59D2512A632DD5007C6BB1 = {
 			isa = PBXGroup;
 			children = (
 				EE59D25C2A632DD5007C6BB1 /* langchain_implementation */,
 				EE59D25B2A632DD5007C6BB1 /* Products */,
 				EEE850D52A633C31005E5304 /* Frameworks */,
+				0BDC5689F8A01A67A601F9C7 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,8 +105,19 @@
 				EE59D25D2A632DD5007C6BB1 /* AppDelegate.swift */,
 				EEE850D12A6336E5005E5304 /* env.txt */,
 				EE59D25F2A632DD5007C6BB1 /* SceneDelegate.swift */,
+				3DA327E42A79B939003CC7D3 /* NetworkManager.swift */,
 				EE59D2612A632DD5007C6BB1 /* ViewController.swift */,
+				3D2371202A7C73B0000DB098 /* BackgroundInfoViewController.swift */,
+				3D2F5E222A85DE2D008B5987 /* asdgafdhhhViewController.swift */,
+				3DA327DE2A798188003CC7D3 /* HistoryViewController.swift */,
+				3DA327E02A7981F1003CC7D3 /* ItineraryCollectionViewCell.swift */,
+				3D2F5E242A8940CC008B5987 /* ItineraryViewController.swift */,
+				3DA327E22A798219003CC7D3 /* Itinerary.swift */,
+				3DA327DC2A7980E4003CC7D3 /* ChatModeViewController.swift */,
+				3D2F5E202A85DA49008B5987 /* DetermineLocationViewController.swift */,
+				3D2371222A7C9980000DB098 /* ChatTableViewCell.swift */,
 				EE59D2632A632DD5007C6BB1 /* Main.storyboard */,
+				EE3460612A76E34D00DF13C6 /* PushViewController.swift */,
 				EE59D2692A632DD6007C6BB1 /* Assets.xcassets */,
 				EEE850D32A633761005E5304 /* testLangChain.swift */,
 				EE59D26B2A632DD6007C6BB1 /* LaunchScreen.storyboard */,
@@ -82,6 +130,7 @@
 		EEE850D52A633C31005E5304 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EE2998FBE1D3456B9F786EA5 /* Pods_langchain_implementation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -93,9 +142,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE59D2712A632DD6007C6BB1 /* Build configuration list for PBXNativeTarget "langchain_implementation" */;
 			buildPhases = (
+				D6F26A481DC458F082750C4D /* [CP] Check Pods Manifest.lock */,
 				EE59D2562A632DD5007C6BB1 /* Sources */,
 				EE59D2572A632DD5007C6BB1 /* Frameworks */,
 				EE59D2582A632DD5007C6BB1 /* Resources */,
+				B2100592828E1B13C3D9880E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -159,16 +210,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B2100592828E1B13C3D9880E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-langchain_implementation/Pods-langchain_implementation-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-langchain_implementation/Pods-langchain_implementation-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-langchain_implementation/Pods-langchain_implementation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6F26A481DC458F082750C4D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-langchain_implementation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EE59D2562A632DD5007C6BB1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				EE59D2622A632DD5007C6BB1 /* ViewController.swift in Sources */,
+				3D2F5E212A85DA49008B5987 /* DetermineLocationViewController.swift in Sources */,
 				EE59D25E2A632DD5007C6BB1 /* AppDelegate.swift in Sources */,
+				EE3460622A76E34D00DF13C6 /* PushViewController.swift in Sources */,
+				3DA327E12A7981F1003CC7D3 /* ItineraryCollectionViewCell.swift in Sources */,
+				3D2371212A7C73B0000DB098 /* BackgroundInfoViewController.swift in Sources */,
+				3DA327E52A79B939003CC7D3 /* NetworkManager.swift in Sources */,
 				EE59D2602A632DD5007C6BB1 /* SceneDelegate.swift in Sources */,
 				EE59D2682A632DD5007C6BB1 /* langchain_implementation.xcdatamodeld in Sources */,
+				3D2F5E232A85DE2D008B5987 /* asdgafdhhhViewController.swift in Sources */,
+				3DA327DD2A7980E4003CC7D3 /* ChatModeViewController.swift in Sources */,
 				EEE850D42A633761005E5304 /* testLangChain.swift in Sources */,
+				3DA327DF2A798188003CC7D3 /* HistoryViewController.swift in Sources */,
+				3D2371232A7C9980000DB098 /* ChatTableViewCell.swift in Sources */,
+				3D2F5E252A8940CC008B5987 /* ItineraryViewController.swift in Sources */,
+				3DA327E32A798219003CC7D3 /* Itinerary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +414,7 @@
 		};
 		EE59D2722A632DD6007C6BB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 337BBF69985E874699E9E812 /* Pods-langchain_implementation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -338,6 +443,7 @@
 		};
 		EE59D2732A632DD6007C6BB1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B7637BF2C004B2A553A8777 /* Pods-langchain_implementation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
